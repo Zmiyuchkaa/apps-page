@@ -1,0 +1,125 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 26px;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #008e4c;
+}
+
+a:visited {
+  color: #008e4c;
+}
+
+.main-header {
+  box-shadow: 0px 2px 2px rgba(0,0,0,0.2);
+  background-color: #008e4c;
+  height: 75px;
+  margin-top: 1.7em;
+}
+
+.main-header__content {
+  width: 60%;
+  margin: 0 auto;
+  color: #efefef;
+  font-size: 60px;
+  padding-top: 0.1%;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+.main-header__content__title {
+  margin-top: 1.5%;
+}
+
+.main-header__content__como {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.main-wrapper {
+  margin: 10px auto;
+  background: #FFF;
+  
+}
+
+.main-wrapper__site-content {
+  padding: 15px 0 0;
+  margin: 0 auto;
+  width: 1140px;
+}
+
+.main-wrapper__site-content__main-block {
+  float: left;
+  width: 840px;
+  padding: 15px 30px 0 0;
+  box-shadow : 0px 2px 2px rgba(0,0,0,0.2);
+}
+
+.main-wrapper__site-content__main-block__image {
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin: -10px 15px 7px 15px;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.main-wrapper__site-content__main-block__header {
+  margin: 30px 15px;
+  padding: 0;
+  width: 700x;
+  font-size: 22px;
+  line-height: 24px;
+  color: #232323;
+  font-weight: 400;
+}
+
+.main-wrapper__site-content__main-block__entry-content {
+  padding: 0 16px;
+}
+
+.main-wrapper__site-content__main-block__entry-content__descr {
+  font-size: 13px;
+  line-height: 18px;
+  color: #888;
+  font-weight: 400;
+  margin-left: 100px;
+}
+
+.main-wrapper__site-content__main-block__entry-content__content {
+  font-family: 'Dosis', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 20px 50px;
+}
+
+.main-wrapper__site-content__main-block__entry-content__first {
+  margin-bottom: 10px;
+  color: #444444;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.main-wrapper__site-content__main-block__entry-content__content__first-image {
+  height: 240px;
+  width: 240px;
+}
+
+.main-wrapper__site-content__main-block__entry-content__content__why {
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+.main-wrapper__site-content__main-block__entry-content__content__second {
+  margin: 3px 0 auto;
+}
+
+.main-wrapper__site-content__main-block__entry-content__content__image {
+  height: 240px;
+  width: 160px;
+}
