@@ -46,12 +46,12 @@ p {
 }
 
 .main-wrapper {
-  margin: 10px auto;
+  margin: 0 auto;
   background: #FFF;
   display: grid;
   grid-template-columns: 2fr 1fr;
-  max-width: 1440px;
-  box-shadow: 0 3px 6px 0 rgba(0,0,0,.07);
+  max-width: 1140px;
+  padding: 15px 0;
 }
 
 .main-wrapper__site-content {
@@ -137,7 +137,6 @@ p {
   list-style: none;
   text-decoration: none;
   outline: 0;
-  width: 760px;
 }
 
 .main-wrapper__site-content__main-block__download-block__header {
@@ -322,7 +321,7 @@ p {
 }
 
 .sidebar__widget-whatsapp__inside__app__p {
-  font-size: 15px;
+  font-size: 13px;
   padding: 0 15px;
   margin-bottom: 0;
 }
@@ -330,7 +329,7 @@ p {
 .sidebar__widget-whatsapp__inside__app__black {
   color: black;
   text-align: center;
-  font-size: 13px;
+  font-size: 11px;
 }
 
 .sidebar__widget {
@@ -395,4 +394,31 @@ p {
   font-weight: bold;
 }
 
+.footer-block {
+  background: #373941;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.footer-block__container {
+  color: rgba(249,249,249,0.7);
+  background: rgba(0,0,0,.35);
+  padding: 15px 0;
+}
+
+.footer-block__container__block {
+  text-align: center;
+}
+
+.footer-block__container__block__li {
+  font-size: 14px;
+  letter-spacing: 1px;
+  list-style-type: none !important;
+  padding-right: 3px;
+  color: #eee !important;
+}
+
+.footer-block__container__block__li__link {
+  color: #eee !important;
+  text-decoration: none;
+}
 
